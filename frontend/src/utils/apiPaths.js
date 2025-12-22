@@ -1,4 +1,4 @@
-export const BASE_URL = 'http://localhost:8000';
+export const BASE_URL = 'https://task-manager-backend-53lf.onrender.com';
 
 // utils/apiPath.js
 
