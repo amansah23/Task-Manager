@@ -22,7 +22,6 @@ const exportTasksReport = async (req, res) => {
             { header: "Due Date", key: "dueDate", width: 20},
             { header: "Assigned To", key: "assignedTo", width: 30},
         ];
-
         tasks.forEach((task) => {
             const assignedTo = task.assignedTo
                 .map((user) => `${user.name} (${user.email})`)
